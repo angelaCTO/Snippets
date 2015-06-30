@@ -22,7 +22,10 @@ set wildmenu
 
 syntax enable 
 set background=dark
-colorscheme = murphy
+try
+    colorscheme murphy
+catch
+endtry
 
 set nobackup
 set nowb
