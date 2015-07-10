@@ -34,3 +34,13 @@ set noswapfile
 set ai 
 set si 
 set wrap 
+
+set noeb vb t_vb=   " Stop it!!!
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
