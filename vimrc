@@ -44,3 +44,6 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
