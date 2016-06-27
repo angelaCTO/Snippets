@@ -48,5 +48,4 @@ Private Sub process_all_crs_Click()
         .ScreenUpdating = True
         .EnableEvents = True
     End With
-    
 End Sub
