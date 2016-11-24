@@ -4,6 +4,7 @@ set ffs=unix,dos,mac
 filetype plugin on
 filetype indent on
 
+set nu
 set autoread
 set autoindent
 set backspace=indent,eol,start
@@ -30,6 +31,9 @@ endtry
 set nobackup
 set nowb
 set noswapfile
+
+syn match   myTodo   contained   "\<\(TODO\|FIXME\):"
+hi def link myTodo Todo
 
 set ai 
 set si 
