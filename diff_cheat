@@ -1,1 +1,0 @@
-=IF(Manual!A1<> AutomatedRemoval!A1, "Manual:"&Manual!A1&" vs AutomatedRemoval:"&AutomatedRemoval!A1, "")
